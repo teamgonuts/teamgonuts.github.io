@@ -1,0 +1,234 @@
+/* Media Queries for reference */
+body {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.primary-highlight {
+  color: #06ff3d;
+  font-size: 2.4rem;
+  text-shadow: 1px 1px 2px black;
+}
+.home .color-side {
+  background-color: #31d624;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 55%;
+  font-size: 2.3rem;
+  background-image: image-url("website_headshot_green_v4sm.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+.home .color-side .content {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: center;
+  color: white;
+  padding-bottom: 35px;
+  width: 325px;
+  max-width: 95%;
+  text-shadow: 1px 1px 2px black;
+}
+.home .color-overlay, .home .above-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 100vh;
+}
+.home .color-overlay {
+  background-color: #096d09;
+  opacity: 0.45;
+}
+.home .content-wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.home .btn {
+  border-radius: 2px;
+  border: 0px;
+  color: white;
+  padding: 10px 30px;
+  text-shadow: 1px 1px 2px black;
+}
+.home .btn:hover, .home .btn:focus {
+  padding: 10px 40px;
+}
+.home .icons i {
+  color: white;
+  font-size: 32px;
+  margin-right: 10px;
+  text-shadow: none;
+}
+.home .icons i:hover, .home .icons i:focus {
+  color: #06ff3d;
+}
+.home .content-side {
+  padding: 40px;
+  padding-bottom: 0px;
+  width: 55%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.home .content-side sup a {
+  color: #019221;
+}
+.home .content-side sup a:hover, .home .content-side sup a:focus, .home .content-side sup a:active {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #019221;
+}
+.home .content-side section {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.home .content-side .label {
+  color: #019221;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  text-align: left;
+  font-size: 2.5rem;
+}
+.home .content-side .label .helper {
+  display: block;
+  border-top: 3px solid #019221;
+  width: 100%;
+  margin-top: 3px;
+}
+.home .content-side .content {
+  width: 75%;
+  font-size: 1.8rem;
+  padding-left: 0px;
+  padding-top: 10px;
+}
+.home .content-side .content h3 {
+  font-size: 2rem;
+  text-decoration: underline;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.home .content-side .content h3:first-child {
+  margin-top: 15px;
+}
+.home .content-side ul > li {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.home .content-side .skills ul > li strong {
+  font-weight: bold;
+  float: left;
+  width: 150px;
+}
+.home .content-side .skills ul > li p {
+  margin-bottom: 0;
+  padding-left: 190px;
+}
+@media only screen and (max-width: 991px) {
+  .home .content-side .skills ul > li strong {
+    width: 100%;
+    display: block;
+  }
+  .home .content-side .skills ul > li p {
+    padding-left: 0px;
+  }
+}
+.home .content-side .label, .home .content-side .content {
+  float: left;
+  width: 100%;
+}
+.home .work-history p {
+  margin-bottom: 0;
+}
+.home .work-history p sup {
+  float: left;
+  width: 50px;
+  top: 10px;
+  display: inline-block;
+}
+.home .work-history p span {
+  padding-left: 50px;
+  display: block;
+}
+.home .work-history p span.block {
+  padding-left: 0;
+  padding-bottom: 5px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .home .content-side {
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .home .color-side, .home .content-side {
+    position: initial;
+    width: 100%;
+  }
+  .home .color-side .content {
+    width: 100%;
+    padding: 25px;
+  }
+  .home .label helper {
+    width: 100%;
+  }
+  .home .content-side {
+    padding: 25px;
+  }
+}
+.green-gradient {
+  background: #1d976c;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1d976c, #3eed7f);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1d976c, #3eed7f);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.black-gradient {
+  background: #000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #434343, #000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #434343, #000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.blue-gradient {
+  background: #000046;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1cb5e0, #000046);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.joomla-gradient {
+  background: #1e3c72;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2a5298, #1e3c72);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.animated {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.margin-bottom-sm {
+  margin-bottom: 10px;
+}
+.margin-top-sm {
+  margin-top: 10px;
+}
+.block {
+  display: block;
+}
+.list-no-bullet {
+  padding-left: 0;
+  list-style: none;
+}
