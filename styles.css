@@ -24,6 +24,7 @@ body {
 .home .color-side .content {
   display: table-cell;
   vertical-align: bottom;
+  padding-bottom: 30px;
   text-align: center;
   color: white;
   width: 325px;
