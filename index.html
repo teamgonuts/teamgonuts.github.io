@@ -398,25 +398,25 @@
           this.context.fillText(
             this.player.score.toString(),
             (this.canvas.width / 2) - 300,
-            200
+            100
           );
 
           // Draw the paddles score (right)
           this.context.fillText(
             this.paddle.score.toString(),
             (this.canvas.width / 2) + 300,
-            200
+            100
           );
 
           // Change the font size for the center score text
           this.context.font = '50px Montserrat';
 
           // Draw the winning score (center)
-          this.context.fillText(
-            'Play Me, If You Dare',
-            (this.canvas.width / 2),
-            60
-          );
+          // this.context.fillText(
+          //   'Play Me, If You Dare',
+          //   (this.canvas.width / 2),
+          //   60
+          // );
 
           // Change the font size for the center score value
           this.context.font = '40px Montserrat';
