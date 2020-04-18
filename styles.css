@@ -1,5 +1,5 @@
 /* Media Queries for reference */
-body {
+body, canvas {
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
 }
