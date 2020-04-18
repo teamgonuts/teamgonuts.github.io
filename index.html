@@ -220,23 +220,31 @@
 
           // Change the canvas font size and color
           this.context.font = '40px Montserrat';
-          this.context.fillStyle = '#019221';
+          this.context.fillStyle = '#ffffff';
 
           // Draw the rectangle behind the 'Press any key to begin' text.
           this.context.fillRect(
             this.canvas.width / 2 - 350,
             this.canvas.height / 2 - 48,
             700,
-            100
+            150
           );
 
           // Change the canvas color;
-          this.context.fillStyle = '#ffffff';
+          this.context.fillStyle = '#019221';
 
           // Draw the 'press any key to begin' text
-          this.context.fillText('Press any key to begin',
+          this.context.fillText('Want to play?',
             this.canvas.width / 2,
             this.canvas.height / 2 + 15
+          );
+
+          // Draw the 'press any key to begin' text
+          // Draw instructions below
+          this.context.font = 'italic 20px Montserrat';
+          this.context.fillText('Hint: Use < ^ > Arrow Keys',
+            this.canvas.width / 2,
+            this.canvas.height / 2 + 50
           );
         },
 
