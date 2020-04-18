@@ -179,6 +179,10 @@ body {
   .home .content-side {
     padding: 25px;
   }
+
+  .home .content-side {
+    display:none;
+  }
 }
 .green-gradient {
   background: #1d976c;
