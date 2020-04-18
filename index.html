@@ -36,7 +36,7 @@
           <div class="content-wrapper">
             <div class="content">
               <h1>Hi, I'm Calvin</h1>
-              <p class="margin-bottom-sm">a <span class="primary-highlight">data nerd</span> and <span class="primary-highlight">tech strategist</span> <span class="block">from Los Gatos, California</span></p>
+              <p class="margin-bottom-sm">a <span class="primary-highlight">something</span> and <span class="primary-highlight">something</span> <span class="block">from Los Gatos, California</span></p>
               <a class="btn green-gradient btn-lg animated" href="mailto:calvin@calvinhawkes.com" target='_blank' rel='noopener'>Get in Touch</a>
               <div class="icons text-center margin-top-sm">
                 <a href="https://github.com/teamgonuts/"><i class="fab fa-github animated" aria-hidden="true"></i></a>
@@ -154,7 +154,7 @@
           Pong.draw();
 
           // Change the canvas font size and color
-          this.context.font = '50px Courier New';
+          this.context.font = '40px Courier New';
           this.context.fillStyle = '#019221';
 
           // Draw the rectangle behind the 'Press any key to begin' text.
@@ -326,7 +326,7 @@
           this.context.stroke();
 
           // Set the default canvas font and align it to the center
-          this.context.font = '100px Courier New';
+          this.context.font = '40px Courier New';
           this.context.textAlign = 'center';
 
           // Draw the players score (left)
@@ -348,7 +348,7 @@
 
           // Draw the winning score (center)
           this.context.fillText(
-            'Round ' + (Pong.round + 1),
+            'Play Me, If You Dare',
             (this.canvas.width / 2),
             35
           );
@@ -356,12 +356,12 @@
           // Change the font size for the center score value
           this.context.font = '40px Courier';
 
-          // Draw the current round number
-          this.context.fillText(
-            rounds[Pong.round] ? rounds[Pong.round] : rounds[Pong.round - 1],
-            (this.canvas.width / 2),
-            100
-          );
+          // // Draw the current round number
+          // this.context.fillText(
+          //   rounds[Pong.round] ? rounds[Pong.round] : rounds[Pong.round - 1],
+          //   (this.canvas.width / 2),
+          //   100
+          // );
         },
 
         loop: function () {
